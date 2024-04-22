@@ -1,0 +1,24 @@
+{
+  "name": "babystep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn reading.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typed/uuid": "^9.7.0",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.30",
+    "@types/prompt-sync": "^4.2.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0",
+    "uuid": "^9.0.1"
+  }
+}
